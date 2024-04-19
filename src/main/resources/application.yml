@@ -1,0 +1,13 @@
+server:
+  port: 9040
+  servlet:
+    context-path: /bootcamp51/ms/reports
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bootcamp51?authSource=admin
+
+
+
+
