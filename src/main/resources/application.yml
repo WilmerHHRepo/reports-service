@@ -8,6 +8,18 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/bootcamp51?authSource=admin
 
+#actuator configuration
+info:
+  app:
+    name: report services
+    description: report service
+    version: 0.0.1
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        base-path: /actuator
 
 
